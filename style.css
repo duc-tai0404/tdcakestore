@@ -15,9 +15,12 @@
     height: 100vh;
 }
 #header{
+    background: lightslategray;
     width: 100%;
     padding: 0px 30px ;
-    margin-top: 33px;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +36,7 @@
 }
 
 #menu .item a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: larger;
 }
@@ -50,7 +53,7 @@
     width: 100%;
     background-image: url(Picture/banner.png);
     height: 463px;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     padding: 0px 133px;
     position: relative;
