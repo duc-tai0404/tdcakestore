@@ -20,7 +20,7 @@
     background: grey;
     width: 100%;
     padding: 0px 30px ;
-    margin-top: 1px;
+    margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -76,7 +76,7 @@
     width: 100%;
     background-image: url(Picture/banner.png);
     height: 463px;
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     padding: 0px 133px;
     position: relative;
@@ -381,7 +381,7 @@
 #footer {
     width: 100%;
     background:rgb(0,0,0,0.79);
-    height: 322px;
+    height: 300px;
     margin-top:338px;
     padding:0px 63px;
     padding-top:57px;
@@ -442,4 +442,14 @@
     .menu, .main, .right {
       width: 100%;
     }
+  }
+
+  /* mobile */
+  @media only screen and (max-width:46.1875em){
+    
+  }
+
+  /* tablet */
+  @media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+
   }
