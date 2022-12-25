@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> T&D's Cake Store</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -30,6 +31,28 @@
                         <a href=""> Liên hệ</a>
                     </div>
                 </div>
+                <!-- menu for mobile -->
+                <div class="open-menu">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <ul class="responsive-menu">
+                    <div class="close-responsive-menu">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                    <li class="item">
+                        <a href=""> Trang chủ</a>
+                    </li>
+                    <li class="item">
+                        <a href=""> Sản phẩm</a>
+                    </li>
+                    <li class="item">
+                        <a href=""> Đặt hàng</a>
+                    </li>
+                    <li class="item">
+                        <a href=""> Liên hệ</a>
+                    </li>
+                </ul>
+                <i class="fas fa-bars"></i>
                 <div id="actions">
                     <div class="item">
                         <a href="#">
@@ -375,7 +398,8 @@
         </div>
         
     </div>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
 
