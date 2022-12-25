@@ -62,7 +62,7 @@
     width: 100%;
     transition: width 0.2s linear;
 }
-
+/* 
 #header .open-menu {
     color: white;
     font-size: 35px; 
@@ -71,11 +71,11 @@
 
 #header .responsive-menu{
     /* hien thi khi man hinh nho */
-    position: absolute;
+    /* position: absolute;
     background: black;
-    width: 100%;
+    width: 100%; */
     /* border: 1px solid red; */
-    left: 0;
+    /* left: 0;
     top: 0;
     padding: 20px;
     display: none;
@@ -83,7 +83,7 @@
 
 #header .responsive-menu .item{
     /* hien thi khi man hinh nho */
-    height: 20px;
+    /* height: 20px;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@
     color: white;
     right: 20px;
     font-size: 25px;
-}
+} */
 #actions{
     display: flex;
 }
