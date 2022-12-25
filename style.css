@@ -84,11 +84,11 @@
 #header .responsive-menu .item{
     /* hien thi khi man hinh nho */
     height: 20px;
-    list-style: none;
     text-align: center;
 }
 
 #header .responsive-menu a{
+    list-style: none;
     color: white;
     transition: 0.2s all;
 }
