@@ -62,48 +62,7 @@
     width: 100%;
     transition: width 0.2s linear;
 }
-/* 
-#header .open-menu {
-    color: white;
-    font-size: 35px; 
-    display: none;
-}
 
-#header .responsive-menu{
-    /* hien thi khi man hinh nho */
-    /* position: absolute;
-    background: black;
-    width: 100%; */
-    /* border: 1px solid red; */
-    /* left: 0;
-    top: 0;
-    padding: 20px;
-    display: none;
-}
-
-#header .responsive-menu .item{
-    /* hien thi khi man hinh nho */
-    /* height: 20px;
-    text-align: center;
-}
-
-#header .responsive-menu a{
-    list-style: none;
-    color: white;
-    transition: 0.2s all;
-}
-
-#header .responsive-menu a:hover{
-    color: orange;
-
-}
-
-#header .responsive-menu .close-responsive-menu{
-    position: absolute;
-    color: white;
-    right: 20px;
-    font-size: 25px;
-} */
 #actions{
     display: flex;
 }
@@ -115,6 +74,10 @@
 #actions .item{
     padding-right: 20px;
 }
+
+#actions .item:hover{
+    color:orange;
+}
 #banner{
     width: 100%;
     background-image: url(Picture/banner.png);
@@ -124,6 +87,7 @@
     padding: 0px 133px;
     position: relative;
 }
+
 
 #banner .box-left, #banner .box-right{
     width: 50%;
@@ -154,14 +118,8 @@
 
 #banner .box-left button:hover{
     background: orange;
+    color: white;
 }
-
-/* #menu .item a:hover{
-    color: orange;
-    
-    font-size: 30px;
-    transition: 0.5s;
-} */
 
 #banner .box-right{
     padding-left: 200px;
@@ -231,12 +189,17 @@
     background: rgb(152, 138, 138);
     border-radius: 10px;
     margin-bottom: 50px;
+
+    object-fit: cover;
+    cursor:pointer;
+    transition:all 0.5s ease;
 }
 
 #list-products .item:hover{
-    transform: scale(1.02);
-    z-index: 2;
+    transform: scale(1.03);
+    z-index: 1;
     transition: 0.4s;
+    box-shadow:10px 10px 5px 5px #cecccc;
 }
 
 
@@ -364,6 +327,7 @@
     overflow: hidden;
 }
 
+
 #comment-body .prev{
     border-radius: 1000px;
 }
@@ -373,11 +337,21 @@
 }
 
 #comment-body .prev:hover{
-    background-color: orange;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    transform: scale(1.4);
+    z-index: 1;
+    transition: 0.4s;
 }
 
 #comment-body .next:hover{
-    background-color: orange;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    transform: scale(1.4);
+    z-index: 1;
+    transition: 0.4s;
 }
 
 #list-comment{
@@ -456,7 +430,15 @@
     text-decoration: none;
 }
 
-
+#footer .box .quick-menu ,.item a:hover{
+    color:orange;
+    transform: scale(1.08);
+    z-index: 1;
+    transition: 0.4s;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+}
 
 #footer .box form input {
     width: 294px;
@@ -474,64 +456,18 @@
     height: 38px;
     margin-top:29px;
     color:#fff;
+
+    object-fit: cover;
+    cursor:pointer;
+    transition:all 0.5s ease;
 }
 
+#footer .box form button:hover{
+    transform: scale(1.08);
+    z-index: 1;
+    transition: 0.4s;
+    color: orange;
+}
 * {
     box-sizing: border-box;
   }
-
-  @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-  }
-
-
-/* Responsive */
-@media(max-width:735px){
-    /* #header {
-        position: fixed;
-        width:200px;
-        height:100vh;
-        background-color:var(--main-color);
-        right: 0;
-        top: 0;
-        flex-direction:column;
-        transform: translateX(100%);
-        opacity:0;
-        transition:all 0.5s ease;
-    } */
-    #header{
-        background: grey;
-        /* position: fixed; */
-        width: 100%;
-        right: 0;
-        top: 0;
-        height: 80px;
-        background-color: grey;
-        padding: 0px 50px ;
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        /* flex-direction:column;
-        transform: translateX(100%);
-        opacity:2;
-        transition:all 0.5s ease; */
-    }
-    #header .logo{
-        margin-bottom: 10px;
-        margin-left: 10px;
-        font-size: 10px;
-    }
-    #menu .item a{
-        color: white;
-        text-decoration: none;
-        font-size: small;
-    }
-
-}
